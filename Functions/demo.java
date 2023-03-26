@@ -34,11 +34,13 @@ public class demo {
         sc.nextLine();
 
         int c = obj.addTwoNumbersReturn(a, b);
+        
         System.out.println(c);
 
         System.out.println("What is your name ?");
         String name = sc.nextLine();
         obj.greetWithName(name);
+        
         
     }
 }

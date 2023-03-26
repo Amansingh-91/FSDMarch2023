@@ -77,8 +77,8 @@ public class FunctionDemo {
 
         obj.greetWithName("Aman");
         int c = obj.addTwoNumbersReturn(13, 14);
-        int d = obj.addTwoNumbersReturn(12, c);
-        System.out.println(d);
+        int d = obj.addTwoNumbersReturn(12, 15);
+        System.out.println(c+d);
 
     }
 }
