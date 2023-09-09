@@ -1,0 +1,54 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hamburger{
+    background-color: aquamarine;
+    width: 30vw;
+    height: 100vh;
+    padding: 10px ;
+    position: relative;
+}
+span{
+    position: absolute;
+    right: 10px;
+}
+.hide{
+    display: none;
+}
+
+.first {
+    width: 200px;
+
+    height: 200px;
+    background-color: aqua;
+    
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+}
+.second {
+    width: 100px;
+    height: 100px;
+    background-color:bisque;
+    
+}
+.container {
+    width: 90vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px auto;
+}
+.item img{
+    width: 150px;
+    height: 200px;
+}
+.item h3{
+    height: 20px;
+    overflow: hidden;
+}

@@ -1,0 +1,36 @@
+.background{
+    background-color: aquamarine;
+    font-weight: 2px;
+}
+
+.newstyle{
+    background-color:antiquewhite;
+    padding: 12px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.newstyle{
+    background-color:beige;
+    padding: 12px;
+}
+div{
+    display: inline-block;
+}
+.container{
+    background-color: blueviolet;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    overflow: hidden;
+}
+.child{
+    width: 300%;
+    height: 300%;
+    background-image: linear-gradient(red, yellow);
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+}

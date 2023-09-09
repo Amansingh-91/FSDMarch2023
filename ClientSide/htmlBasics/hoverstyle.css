@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#i{
+    background-color: red;
+}
+#j{
+    background-color: transparent;
+}
+#j:hover{
+    display: none;
+}
